@@ -8,4 +8,6 @@ for i in range(0,len(l)):
 		l1.append(l[i])
 	else:
 		continue
-print(*l1)
+for i in range(0,len(l1)-1):
+	print(l1[i],end=" ")
+print(l1[-1])

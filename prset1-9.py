@@ -1,2 +1,3 @@
-n=int(input())
-print(n)
+#mahaa
+z=int(input())
+print(z)

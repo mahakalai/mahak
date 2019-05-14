@@ -7,10 +7,10 @@ while i<len(l):
 	while j<len(l):
 		s=l[i]+l[j]
 		if k==s:
-			print("YES")
 			c=c+1
-			break
 		j=j+1
 	i=i+1
 if c==0:
 	print("NO")
+else:
+	print("yes")

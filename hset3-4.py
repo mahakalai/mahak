@@ -13,4 +13,4 @@ while i<len(l):
 if c==0:
 	print("NO")
 else:
-	print("yes")
+	print("YES")

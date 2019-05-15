@@ -1,5 +1,8 @@
 n=int(input())
 p=n//2
 d=n-1
-pro=p*d
-print(pro)
+if n%2==0:
+	pro=p*d
+else:
+	pro=p+1
+	print(pro)

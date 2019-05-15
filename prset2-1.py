@@ -6,3 +6,4 @@ if n%2==0:
 else:
 	pro=p+1
 	print(pro)
+print(pro)

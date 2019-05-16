@@ -1,4 +1,4 @@
-#maha
+#mahaa
 n=input()
 l=["GLGLGL","GRGRGR","GLLG","GRRG"]
 c=0

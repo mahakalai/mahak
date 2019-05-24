@@ -1,12 +1,10 @@
 n=int(input())
-l=[int(x) for x in input().split()]
-p=int(input())
-p1=str(p)
+l=[x for x in input().split()]
+p=input()
 c=0
 for i in range(0,len(l)):
-	m=l[i]
-	s=str(m)
+	s=l[i]
 	m1=s[:2]
-	if m1==p1:
+	if m1==p:
 		c=c+1
 print(c)		

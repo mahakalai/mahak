@@ -1,6 +1,6 @@
 n=int(input())
 l=list(map(int,input().split()))
-c=1
-for i in l:
-	c=c&i
+c=l[0]
+for i in range(1,len(l)):
+	c=c&l[i]
 print(c)	

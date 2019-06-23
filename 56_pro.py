@@ -7,3 +7,4 @@ if d<=m:
 	print(d)
 else:	
 	print(abs(86400-d))
+#ma

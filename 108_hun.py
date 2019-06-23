@@ -9,3 +9,4 @@ for i in range(0,len(l)-1):
 	k=int(l[i+1])
 	sum=sum+(m**k)
 print(sum)
+#ma
